@@ -1,0 +1,22 @@
+/* ===========================
+Dashboard Layout
+=========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+.dashboard-layout{
+    display:flex;
+    background:#f4f7fc;
+    min-height:100vh;
+}
+
+.dashboard-main{
+    margin-left:260px;
+    width:calc(100% - 260px);
+    padding:35px;
+}

@@ -1,0 +1,11 @@
+.history-search{
+    margin:20px 0;
+}
+
+.history-search input{
+    width:100%;
+    padding:14px 18px;
+    border-radius:10px;
+    border:1px solid #ddd;
+    font-size:16px;
+}

@@ -1,0 +1,39 @@
+@media (max-width: 900px) {
+
+  .profile-stats {
+    grid-template-columns: repeat(2,1fr);
+  }
+
+}
+
+@media (max-width: 600px) {
+
+  .profile-page {
+    padding: 20px;
+  }
+
+  .profile-card {
+    padding: 25px;
+  }
+
+  .profile-avatar {
+    width: 90px;
+    height: 90px;
+    font-size: 42px;
+  }
+
+  .profile-stats {
+    grid-template-columns: 1fr;
+  }
+
+  .profile-actions {
+    flex-direction: column;
+  }
+
+  .info-row {
+    flex-direction: column;
+    gap: 5px;
+    text-align: left;
+  }
+
+}

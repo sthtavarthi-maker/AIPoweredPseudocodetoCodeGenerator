@@ -1,0 +1,42 @@
+/* ==========================
+Generator Layout
+========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#f4f7fc;
+}
+
+.generator-container{
+    max-width:1200px;
+    margin:40px auto;
+    padding:35px;
+    background:#fff;
+    border-radius:20px;
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+}
+
+.generator-container h1{
+    text-align:center;
+    color:#2563eb;
+    font-size:42px;
+    margin-bottom:10px;
+}
+
+.subtitle{
+    text-align:center;
+    color:#64748b;
+    font-size:18px;
+    margin-bottom:35px;
+}
+
+.generator-container h3{
+    margin:25px 0 12px;
+    color:#1e293b;
+}
